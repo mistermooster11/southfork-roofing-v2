@@ -22,11 +22,11 @@ interface ServiceDetailSectionProps {
 }
 
 const SIDEBAR_SERVICES = [
-  { label: "Commercial Unclogging", href: "/commercial-unclogging/" },
-  { label: "Residential Unclogging", href: "/residential-unclogging/" },
-  { label: "Recurring Grease Trap Cleaning", href: "/recurring-grease-trap-cleaning-maintenance/" },
-  { label: "Grease Trap Cleaning", href: "/grease-trap-cleaning/" },
-  { label: "Camera Inspection", href: "/camera-inspection/" },
+  { label: "Roof Repair", href: "/roof-repair/" },
+  { label: "Roof Replacement", href: "/roof-replacement/" },
+  { label: "Chimney Repair & Cleaning", href: "/chimney-repair/" },
+  { label: "Flat Roofing", href: "/flat-roofing/" },
+  { label: "Emergency Roof Repair", href: "/emergency-roof-repair/" },
 ];
 
 function CheckIcon() {
@@ -133,7 +133,7 @@ export default function ServiceDetailSection({
             ))}
           </ul>
 
-          <h3 className="svc-detail__list-heading">Why Choose UnclogMe</h3>
+          <h3 className="svc-detail__list-heading">Why Choose South Fork Roofing</h3>
           <ul className="svc-detail__list">
             {whyChooseUs.map((item, i) => (
               <li key={i} className="svc-detail__list-item">
@@ -144,7 +144,7 @@ export default function ServiceDetailSection({
           </ul>
 
           <Link href="/contact-us/" className="svc-detail__btn">
-            Fast Quote
+            Free Estimate
           </Link>
         </div>
 
