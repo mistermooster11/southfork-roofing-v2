@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-@import "./client-theme.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -66,12 +65,12 @@
   --color-primary: #EEF3F7;        /* light blue-gray bg */
   --color-secondary: #000000;      /* black */
   --color-text: #4A5257;           /* body text */
-  --color-accent: #F14714;         /* orange-red CTA */
+  --color-accent: #FCB040;         /* amber gold CTA */
   --color-white: #FFFFFF;
   --color-dark: #121C22;           /* dark navy */
   --color-dark-2: #1F2428;         /* slightly lighter dark */
   --color-light-gray: #C5D0D7;
-  --color-red-light: #E86556;      /* pricing checkmark color */
+  --color-red-light: #FFBE52;      /* golden yellow accent */
   --color-bg-light: #FAFAFA;
 
   /* Typography */
