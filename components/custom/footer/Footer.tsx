@@ -10,10 +10,10 @@ export default function Footer() {
         <div className="footer__brand">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo-icon.png"
               alt="South Fork Roofing & Chimney Logo"
-              width={239}
-              height={58}
+              width={80}
+              height={80}
               className="footer__logo"
               style={{ height: "auto" }}
             />

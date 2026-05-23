@@ -66,12 +66,12 @@ export default function Header() {
         <div className="header__logo">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo-light.png"
               alt="South Fork Roofing & Chimney"
-              width={200}
-              height={44}
+              width={220}
+              height={60}
               priority
-              style={{ width: "100%", maxWidth: 200, height: "auto" }}
+              style={{ width: "100%", maxWidth: 220, height: "auto" }}
             />
           </Link>
         </div>
