@@ -36,9 +36,9 @@ export default function BlogSection() {
   return (
     <section className="blog" ref={sectionRef}>
       <div className="blog__header">
-        <div className="blog__eyebrow">Blog UnclogMe</div>
+        <div className="blog__eyebrow">Our Blog</div>
         <h2 className="blog__heading">Built on Experience. Shared Through Knowledge.</h2>
-        <Link href="/blog-unclogme/" className="blog__view-btn">
+        <Link href="/blog/" className="blog__view-btn">
           View Blog
         </Link>
       </div>

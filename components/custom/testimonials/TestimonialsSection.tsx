@@ -61,9 +61,9 @@ export default function TestimonialsSection() {
           <div className="testimonials__eyebrow">24/7 at no extra charge</div>
           <h2 className="testimonials__heading">Trusted When It Matters Most</h2>
           <p className="testimonials__subtext">
-            Our clients rely on UnclogMe for fast response, professional service, and reliable
-            solutions for residential and commercial unclogging, grease trap cleaning, and ongoing
-            maintenance across Miami-Dade County.
+            Hamptons homeowners and property managers have relied on South Fork Roofing &amp; Chimney
+            for fast response, expert craftsmanship, and dependable roofing and chimney solutions
+            across East Hampton and Long Island since 1985.
           </p>
         </div>
 

@@ -42,11 +42,10 @@ export default function FleetSection() {
             Modern Trucks Powered by Advanced Technology
           </h2>
           <p className="fleet-section__intro">
-            Our fleet includes three modern service trucks equipped with advanced
-            technology to handle grease trap cleaning, commercial and residential
-            unclogging, and emergency services efficiently. This allows us to deliver
-            faster response times, precise service execution, and reliable results across
-            Miami-Dade County.
+            Our fleet includes fully stocked roofing and chimney service vehicles equipped
+            with the tools and materials to handle repairs, replacements, and emergency
+            response efficiently. This allows us to deliver faster response times, precise
+            workmanship, and reliable results across East Hampton and Long Island.
           </p>
         </div>
 
@@ -54,21 +53,21 @@ export default function FleetSection() {
         <div className="fleet-section__images">
           <Image
             src="/wp-assets/About-Row-IMG-1.webp"
-            alt="UnclogMe service truck"
+            alt="South Fork Roofing service vehicle"
             width={1024}
             height={909}
             className="fleet-section__img"
           />
           <Image
             src="/wp-assets/Truck-Example-2.webp"
-            alt="UnclogMe truck example"
+            alt="South Fork Roofing crew vehicle"
             width={1024}
             height={683}
             className="fleet-section__img"
           />
           <Image
             src="/wp-assets/Truck-Example-3.webp"
-            alt="UnclogMe truck example"
+            alt="South Fork Roofing crew vehicle"
             width={1024}
             height={541}
             className="fleet-section__img"

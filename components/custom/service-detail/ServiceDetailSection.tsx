@@ -17,7 +17,7 @@ interface ServiceDetailSectionProps {
   intro: string[];
   /** "What We Do" bullets */
   whatWeDo: string[];
-  /** "Why Choose UnclogMe" bullets */
+  /** "Why Choose South Fork Roofing" bullets */
   whyChooseUs: string[];
 }
 

@@ -22,7 +22,7 @@ const BENEFITS = [
   {
     num: "04",
     title: "Grow With Us",
-    text: "Join a fast-growing company expanding across South Florida with room to advance.",
+    text: "Join a well-established company serving The Hamptons since 1985 with room to grow and advance.",
   },
 ];
 
@@ -62,8 +62,8 @@ export default function BecomeSection() {
     <section className="become-section" ref={sectionRef}>
       <div className="become-section__inner">
         <p className="become-section__intro">
-          UnclogMe is expanding its network of professional uncloggers across Miami-Dade, Broward &amp; Palm Beach.
-          If you are a motivated, hands-on professional looking for a rewarding career in drain and grease trap services,
+          South Fork Roofing &amp; Chimney is growing its team of skilled roofing and chimney professionals across East Hampton and Long Island.
+          If you are a motivated, hands-on tradesperson looking for a rewarding career in roofing or chimney services,
           we want to hear from you.
         </p>
 
