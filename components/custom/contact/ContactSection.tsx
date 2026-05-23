@@ -62,7 +62,7 @@ export default function ContactSection() {
             <div className="contact-section__details-col">
               <h5 className="contact-detail__label">Address</h5>
               <p className="contact-detail__value">
-                East Hampton, NY&nbsp;11937
+                105 Newtown Ln, East Hampton, NY&nbsp;11937
               </p>
 
               <h5 className="contact-detail__label">Follow us</h5>
