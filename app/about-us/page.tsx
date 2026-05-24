@@ -4,7 +4,6 @@ import "@/styles/inner-pages.css";
 import PageHeroSection from "@/components/custom/page-hero/PageHeroSection";
 import AboutSection from "@/components/custom/about/AboutSection";
 import WhyChooseSection from "@/components/custom/why-choose/WhyChooseSection";
-import FleetSection from "@/components/custom/fleet/FleetSection";
 import TestimonialsSection from "@/components/custom/testimonials/TestimonialsSection";
 import CTAFormSection from "@/components/custom/cta/CTAFormSection";
 
@@ -27,7 +26,6 @@ export default function AboutPage() {
       />
       <AboutSection />
       <WhyChooseSection />
-      <FleetSection />
       <TestimonialsSection />
       <CTAFormSection />
     </>
