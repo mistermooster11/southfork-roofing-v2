@@ -53,16 +53,24 @@ export default function HeroSection() {
     <section className="hero">
       {/* Video background */}
       <div className="hero__video-bg">
-        <video
-          autoPlay
-          muted
-          playsInline
-          loop
-          poster="/images/hero-bg.jpg"
+        <iframe
+          src="https://customer-ip9lnkk65px0t3ak.cloudflarestream.com/763e656c9cc93e0011a3131920dcd04f/iframe?autoplay=true&muted=true&loop=true&controls=false&preload=auto"
+          allow="autoplay; fullscreen"
           aria-hidden="true"
-        >
-          {/* No video available — poster image used as fallback */}
-        </video>
+          title="Background video"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: "100vw",
+            height: "56.25vw",   /* 16:9 */
+            minHeight: "100%",
+            minWidth: "177.78vh", /* 16:9 inverse */
+            transform: "translate(-50%, -50%)",
+            border: "none",
+            pointerEvents: "none",
+          }}
+        />
       </div>
 
       {/* Content */}
