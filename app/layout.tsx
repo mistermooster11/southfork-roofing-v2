@@ -6,6 +6,7 @@ import Footer from "@/components/custom/footer/Footer";
 import PageTransition from "@/components/custom/page-transition/PageTransition";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
+import SalePopup from "@/components/custom/popup/SalePopup"
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -81,6 +82,7 @@ export default function RootLayout({
       </head>
       <body>
         <PageTransition />
+        <SalePopup businessName="South Fork Roofing & Chimney" expiryDate="June 7, 2026" trade="roofers" />
         <Header />
         <main>{children}</main>
         <Footer />
