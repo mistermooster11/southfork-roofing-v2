@@ -68,10 +68,10 @@ export default function Header() {
             <Image
               src="/logo-light.png"
               alt="South Fork Roofing & Chimney"
-              width={220}
-              height={60}
+              width={154}
+              height={42}
               priority
-              style={{ width: "100%", maxWidth: 220, height: "auto" }}
+              style={{ width: "100%", maxWidth: 154, height: "auto" }}
             />
           </Link>
         </div>

@@ -1847,9 +1847,9 @@
 /* ── 575px ─────────────────────────────────────── */
 @media (max-width: 575px) {
   /* Hero */
-  .hero__title { font-size: 20px; line-height: 1.2; }
+  .hero__title { font-size: 32px; line-height: 1.2; }
   .hero__divider { width: 160px; }
-  .hero__description { font-size: 12px; }
+  .hero__description { font-size: 15px; }
   .hero__buttons { flex-direction: column; align-items: center; }
   .hero__btn-primary,
   .hero__btn-secondary { width: 100%; max-width: 280px; text-align: center; }

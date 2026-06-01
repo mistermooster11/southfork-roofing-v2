@@ -74,7 +74,7 @@
 
 .header__logo img {
   width: 100%;
-  max-width: 200px;
+  max-width: 154px;
   height: auto;
 }
 
@@ -203,7 +203,7 @@
 /* ─── MOBILE HAMBURGER ──────────────────────────── */
 .hamburger {
   display: none;
-  background: #E84F23;
+  background: var(--color-accent);
   border: none;
   cursor: pointer;
   padding: 8px;
