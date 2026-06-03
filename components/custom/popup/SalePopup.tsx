@@ -112,7 +112,7 @@ export default function SalePopup({ businessName, expiryDate, trade }: SalePopup
               className="mb-3 leading-snug text-gray-900"
               style={{ fontFamily: 'Georgia, "Times New Roman", serif', fontSize: '21px', fontWeight: 600 }}
             >
-              Hey {businessName} — we built this for you.
+              Hey {businessName}
             </h2>
 
             {/* Subheading */}
@@ -124,8 +124,7 @@ export default function SalePopup({ businessName, expiryDate, trade }: SalePopup
             <ul className="mb-5 space-y-2.5">
               {[
                 <>Built to rank on Google <em>and</em> show up when people search on ChatGPT or Siri for {trade}.</>,
-                'Fully custom to your trade, your area, and your reputation.',
-                'Every detail of this site was built specifically for you and your business.',
+                'Fully custom to your brand, your services, and your reputation',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700" style={{ lineHeight: '1.55' }}>
                   <span
