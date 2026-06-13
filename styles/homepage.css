@@ -744,7 +744,7 @@
 /* ─── CTA FORM SECTION ───────────────────────────── */
 .cta-form {
   position: relative;
-  background-image: url("/images/cta-bg.png");
+  background-image: url("/images/modern-home-slate-roof-mountain-valley.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1173,7 +1173,7 @@
 .need-services {
   position: relative;
   background-color: var(--color-secondary);
-  background-image: url('/images/need-services-bg.png');
+  background-image: url('/images/about-row.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
